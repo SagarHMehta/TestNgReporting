@@ -4,4 +4,4 @@ Repository will hold various Custom Repoters to generate TestNg Report in variou
 ## Sample CSV Report
 Please see below Image showing a sample run on Eclipse.
 
-![CSV](file://mdImages/CustomReportingCapture.jpg)
+![CSV](./mdImages/CustomReportingCapture.PNG)
