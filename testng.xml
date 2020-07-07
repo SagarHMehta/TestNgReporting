@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Build Custom Report 01">
+	<listeners>
+		<listener
+			class-name="com.java.reporting.TestNgReporting.customReporters.CSVReporter">
+		</listener>
+	</listeners>
+
+	<test name="TestCSVReport">
+		<classes>
+			<class
+				name="com.java.reporting.TestNgReporting.testcases.PositiveSortingCheck" />
+		</classes>
+	</test>
+
+</suite>
